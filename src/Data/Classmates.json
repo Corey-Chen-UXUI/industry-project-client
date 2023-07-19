@@ -1,0 +1,10 @@
+[
+  {
+    "id": 0,
+    "student_name": "Raul",
+    "discipline": "Software Engineering",
+    "socials": ["github.com", "linkedin.com"],
+    "contact": "raulcalero7@gmail",
+    "skills": ["CSS", "HTML", "Javascript", "React", "Node Js", "Jira"]
+  }
+]

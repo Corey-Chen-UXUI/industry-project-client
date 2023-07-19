@@ -1,0 +1,46 @@
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 9vh;
+    width: 100vw;
+    height: 30vh;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background: linear-gradient(-45deg, #E0115F, #50C878, #b9f2ff, #EEAC4D);
+        background-repeat: no-repeat;
+        background-size: 400% 400%;
+        width: 35vw;
+        height: 75%;
+        padding: 0.5rem;
+        border-radius: 10px;
+        animation: animate 15s ease-in infinite;
+        &-button {
+            width: 5rem;
+            margin-top: 1rem;
+            button {
+                width: 100%;
+                height: 100%;
+                border-radius: 20px;
+                border: 0;
+
+            }
+        }
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

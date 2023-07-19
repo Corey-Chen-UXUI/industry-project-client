@@ -1,0 +1,28 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 70vw;
+    height: 30vh;
+    background-color: black;
+    border-radius: 20px;
+    &__title {
+        color: white;
+        margin-bottom: 1.5rem;
+    }
+    &__input {
+        border-radius: 20px;
+        border: 0;
+        margin-bottom: 0.5rem;
+        width: 75%;
+        background-color: white;
+    }
+    &__button {
+        width: 5rem;
+        border-radius: 20px;
+        border: 0;
+        background-color: gold;
+    }
+}
