@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     padding: 1rem 1.5rem 1.5rem 1.5rem;
-    width: 30vw;
+    width: 14rem;
     border-radius: 10px;
     background-color: #fff;
     margin-left: 2rem;
     box-shadow: 2px 2px 3px;
+    box-sizing: border-box;
 
     &__top {
         display: flex;
@@ -36,14 +37,22 @@
     &__sub-description {
         margin-bottom: 0.5rem;
     }
-    &__link {
+    &__button {
+        border: none;
         background-color: #1a73e9;
-
+        padding-left: 1rem;
+        padding-right: 01rem;
+        height: 2rem;
+        border-radius: 1.0625rem;
         font-size: 0.8125rem;
-        padding: 0.5rem 1rem;
-        border-radius: 30px;
         color: #fff;
+        display: flex;
+        align-items: center;
         text-decoration: none;
-        display: inline-block;
+        cursor: pointer;
+    }
+    &__icon {
+        height: 1rem;
+        margin-right: 0.5rem;
     }
 }
