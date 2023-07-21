@@ -7,8 +7,8 @@ import ToolTipModal from "../../Components/ToolTipModal/ToolTipModal";
 const Home = () => {
     return (
         <div className="home">
-            <Hero /> <ToolTipModal />
-            <ModalBard /> <Card />
+            <Hero />
+            <Card />
         </div>
     );
 };

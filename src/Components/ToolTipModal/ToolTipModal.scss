@@ -1,17 +1,12 @@
-.display-none {
-    display: none;
-}
 .tooltip {
-    margin-top: 10rem;
-    position: absolute;
-    z-index: 2;
     display: flex;
     flex-direction: column;
     padding: 1rem 1.5rem 1.5rem 1.5rem;
     width: 14rem;
     border-radius: 10px;
     background-color: #fff;
-    box-shadow: 2px 2px 3px lightgrey;
+    margin-left: 2rem;
+    box-shadow: 2px 2px 3px;
     box-sizing: border-box;
 
     &__top {
@@ -29,6 +24,8 @@
         background: -webkit-linear-gradient(to right, #3795dd 0%, #9a72cb 30%, #ef924d 90%);
         background: -moz-linear-gradient(to right, #3795dd 0%, #9a72cb 30%, #ef924d 90%);
         background: linear-gradient(to right, #3795dd 0%, #9a72cb 30%, #ef924d 90%);
+        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-bottom: 0.5rem;
     }
