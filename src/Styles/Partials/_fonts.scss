@@ -3,28 +3,35 @@
     src: url("../../Assets/Fonts/Purista-Medium.ttf") format("TrueType");
 }
 @font-face {
-    font-family: "Roboto";
-    src: url("../../Assets/Fonts/Roboto-Thin.ttf") format("TrueType");
-    font-weight: 300;
-}
-@font-face {
-    font-family: "Roboto";
-    src: url("../../Assets/Fonts/Roboto-Regular.ttf") format("TrueType");
-    font-weight: 500;
-}
-@font-face {
-    font-family: "Roboto";
-    src: url("../../Assets/Fonts/Roboto-Medium.ttf") format("TrueType");
-    font-weight: 600;
+    font-family: "PTSans";
+    src: url("../../Assets/Fonts/PTSans-Regular.ttf") format("TrueType");
+    font-weight: 400;
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: url("../../Assets/Fonts/Roboto-Bold.ttf") format("TrueType");
+    font-family: "PTSans";
+    src: url("../../Assets/Fonts/PTSans-Bold.ttf") format("TrueType");
     font-weight: 700;
 }
-@font-face {
-    font-family: "Roboto";
-    src: url("../../Assets/Fonts/Roboto-Black.ttf") format("TrueType");
-    font-weight: 800;
-}
+
+// @font-face {
+//     font-family: "Roboto";
+//     src: url("../../Assets/Fonts/Roboto-Regular.ttf") format("TrueType");
+//     font-weight: 500;
+// }
+// @font-face {
+//     font-family: "Roboto";
+//     src: url("../../Assets/Fonts/Roboto-Medium.ttf") format("TrueType");
+//     font-weight: 600;
+// }
+
+// @font-face {
+//     font-family: "Roboto";
+//     src: url("../../Assets/Fonts/Roboto-Bold.ttf") format("TrueType");
+//     font-weight: 700;
+// }
+// @font-face {
+//     font-family: "Roboto";
+//     src: url("../../Assets/Fonts/Roboto-Black.ttf") format("TrueType");
+//     font-weight: 800;
+// }
