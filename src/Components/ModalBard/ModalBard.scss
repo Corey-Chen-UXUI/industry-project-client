@@ -1,0 +1,58 @@
+.overlay {
+    background-color: rgba(19, 24, 44, 0.7);
+    width: 100vw;
+    height: 100vh;
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.modal {
+    display: flex;
+    flex-direction: column;
+    margin: 12.5rem 1rem 1.5rem 1rem;
+    background-color: white;
+    border-radius: 4px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+
+    &__bardlogo {
+        margin-bottom: 1.125rem;
+        width: 3.8875rem;
+    }
+    &__mic-circle {
+        width: 5.25rem;
+        margin-bottom: 1.125rem;
+    }
+    &__description {
+        color: #2f2f2f;
+        font-size: 0.9375rem;
+    }
+    &__footer {
+        margin-top: 4rem;
+        color: #666;
+        font-size: 0.625rem;
+    }
+}
+.button {
+    border: none;
+    height: 2.125rem;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 0.5rem;
+    align-self: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 1.0625rem;
+    align-items: center;
+
+    &__icon {
+        width: 1rem;
+    }
+}

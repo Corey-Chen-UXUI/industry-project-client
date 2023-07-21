@@ -1,0 +1,58 @@
+.tooltip {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+    width: 14rem;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-left: 2rem;
+    box-shadow: 2px 2px 3px;
+    box-sizing: border-box;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__close {
+        align-self: start;
+        width: 0.875rem;
+    }
+    &__title {
+        display: inline;
+        font-size: 1.25rem;
+        font-weight: 700;
+        background: -webkit-linear-gradient(to right, #3795dd 0%, #9a72cb 30%, #ef924d 90%);
+        background: -moz-linear-gradient(to right, #3795dd 0%, #9a72cb 30%, #ef924d 90%);
+        background: linear-gradient(to right, #3795dd 0%, #9a72cb 30%, #ef924d 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 0.5rem;
+    }
+    &__description {
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 0.8125rem;
+        color: #3f3f3f;
+    }
+    &__sub-description {
+        margin-bottom: 0.5rem;
+    }
+    &__button {
+        border: none;
+        background-color: #1a73e9;
+        padding-left: 1rem;
+        padding-right: 01rem;
+        height: 2rem;
+        border-radius: 1.0625rem;
+        font-size: 0.8125rem;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    &__icon {
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+}
