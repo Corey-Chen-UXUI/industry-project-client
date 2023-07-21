@@ -6,22 +6,10 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
-    const [openModal, setOpenModal] = useState(false);
-
-    const handleOpen = () => {
-        const timer = setTimeout(() => {
-            setOpenModal(true);
-        }, 2000);
-        return () => clearTimeout(timer);
-    };
-    useEffect(() => {
-        handleOpen();
-    }, []);
-
     return (
         <div className="navigation">
             <ModalBard />
-            <ToolTipModal className="navigation__tooltips" />
+            <ToolTipModal />
             <NavigationLanding />
 
             {/* <Modal/> */}

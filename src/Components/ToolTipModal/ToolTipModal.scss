@@ -12,7 +12,13 @@
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 2px 2px 3px lightgrey;
-    box-sizing: border-box;
+
+    // fade in
+    animation: fadeIn 0.7s;
+    -webkit-animation: fadeIn 0.7s;
+    -moz-animation: fadeIn 0.7s;
+    -o-animation: fadeIn 0.7s;
+    -ms-animation: fadeIn 0.7s;
 
     &__top {
         display: flex;
@@ -29,6 +35,8 @@
         background: -webkit-linear-gradient(to right, #3795dd 0%, #9a72cb 30%, #ef924d 90%);
         background: -moz-linear-gradient(to right, #3795dd 0%, #9a72cb 30%, #ef924d 90%);
         background: linear-gradient(to right, #3795dd 0%, #9a72cb 30%, #ef924d 90%);
+        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-bottom: 0.5rem;
     }
@@ -54,9 +62,19 @@
         align-items: center;
         text-decoration: none;
         cursor: pointer;
+        width: 8.625rem;
     }
     &__icon {
         height: 1rem;
         margin-right: 0.5rem;
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
