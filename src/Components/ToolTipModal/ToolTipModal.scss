@@ -12,6 +12,14 @@
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 2px 2px 3px lightgrey;
+
+    // fade in
+    animation: fadeIn 0.7s;
+    -webkit-animation: fadeIn 0.7s;
+    -moz-animation: fadeIn 0.7s;
+    -o-animation: fadeIn 0.7s;
+    -ms-animation: fadeIn 0.7s;
+
     &__top {
         display: flex;
         justify-content: space-between;
@@ -54,9 +62,19 @@
         align-items: center;
         text-decoration: none;
         cursor: pointer;
+        width: 8.625rem;
     }
     &__icon {
         height: 1rem;
         margin-right: 0.5rem;
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
