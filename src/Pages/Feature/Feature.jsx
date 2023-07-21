@@ -5,14 +5,11 @@ import ToolTipModal from "../../Components/ToolTipModal/ToolTipModal";
 import PhoneLanding from "../../Components/PhoneLanding/PhoneLanding";
 
 const Feature = () => {
-
     function submitHandler(e) {
         e.preventDefault();
         console.log("Test");
-        window.location.href = "/feature/1"
-    
+        window.location.href = "/feature/1";
     }
-    
 
     return (
         <div className="feature">
@@ -20,7 +17,7 @@ const Feature = () => {
             {/* <ToolTipModal />{" "} */}
             <PhoneLanding />
             <form onSubmit={submitHandler}>
-                <input></input>
+                <input placeholder="Search here" />
             </form>
         </div>
     );

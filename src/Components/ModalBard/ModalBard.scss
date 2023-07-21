@@ -14,12 +14,13 @@
 .modal {
     display: flex;
     flex-direction: column;
-    margin: 12.5rem 1rem 1.5rem 1rem;
+    margin: 21rem auto 1.5rem auto;
     background-color: white;
     border-radius: 4px;
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
+    width: 300px;
 
     &__bardlogo {
         margin-bottom: 1.125rem;
