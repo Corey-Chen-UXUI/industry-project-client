@@ -27,8 +27,10 @@ const ToolTipModal = () => {
                     <h1 className="tooltip__title">Bard Education</h1> <img src={close} className="tooltip__close" />
                 </section>
 
-                <section className="tooltip__description">How does google maps know the best route? </section>
-                <section className="tooltip__sub-description">Maps uses ai to pull live information from ...</section>
+                <section className="tooltip__description">Bard cut down your route by 12 minutes.</section>
+                <section className="tooltip__sub-description">
+                    Google maps uses AI with real-time data to enhance your route. Learn more
+                </section>
 
                 <ModalBard open={openModal} onClose={() => setOpenModal(false)} />
 

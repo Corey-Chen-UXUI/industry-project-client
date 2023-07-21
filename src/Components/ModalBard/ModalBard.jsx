@@ -18,11 +18,11 @@ const ModalBard = ({ open, onClose }) => {
                     </section>
                     <button className="button">
                         <img className="button__icon" src={bardIcon} />
-                        What are the benefit of AI?
+                        What are the benefits of AI?
                     </button>
                     <button className="button">
                         <img className="button__icon" src={bardIcon} />
-                        How does bard use my data?
+                        How can I trust you?
                     </button>
                 </section>
             </section>
