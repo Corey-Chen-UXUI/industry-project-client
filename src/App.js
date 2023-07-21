@@ -11,20 +11,21 @@ import Navigation from "./Pages/Navigation/Navigation";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 
 function App() {
-  return (
-    <div className="app">
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/feature" element={<Feature />} />
-          <Route path="/feature/1" element={<Location/>}/>
-          <Route path="/feature/2" element={<Navigation/>}/>        
-        </Routes>
-        <Footer />
-      </BrowserRouter>
-    </div>
-  );
+    return (
+        <div className="app">
+            <BrowserRouter>
+                <Header />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/feature" element={<Feature />} />
+                    <Route path="/feature/1" element={<Location />} />
+                    <Route path="/feature/2" element={<Navigation />} />
+                    <Route path="/feature/3" element={<Navigation />} />
+                </Routes>
+                {/* <Footer /> */}
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;

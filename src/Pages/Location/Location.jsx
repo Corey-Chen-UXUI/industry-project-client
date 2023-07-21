@@ -5,8 +5,10 @@ import { Link } from "react-router-dom";
 const Location = () => {
     return (
         <div className="location">
-            <LocationLanding/>
-            <Link to={"/feature/2"}><button>Directions</button></Link>
+            <LocationLanding />
+            <Link to={"/feature/2"}>
+                <button>Directions</button>
+            </Link>
         </div>
     );
 };
