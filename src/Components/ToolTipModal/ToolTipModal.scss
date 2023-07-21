@@ -1,0 +1,42 @@
+.tooltip {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    width: 30vw;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-left: 2rem;
+    box-shadow: 2px 2px 3px;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__close {
+        align-self: start;
+        width: 0.875rem;
+        align-items: start;
+    }
+    &__title {
+        display: inline;
+        font-size: 1.25rem;
+        font-weight: 800;
+        background: -webkit-linear-gradient(to right, #3795dd 0%, #9a72cb 30%, #ef924d 80%);
+        background: -moz-linear-gradient(to right, #3795dd 0%, #9a72cb 30%, #ef924d 80%);
+        background: linear-gradient(to right, #3795dd 0%, #9a72cb 10%, #ef924d 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 0.5rem;
+    }
+    &__description {
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 0.8125rem;
+    }
+    &__sub-description {
+        margin-bottom: 0.5rem;
+    }
+    &__link {
+        color: #1a73e9;
+    }
+}
