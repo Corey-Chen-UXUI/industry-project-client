@@ -14,7 +14,7 @@ const Feature = () => {
     return (
         <div className="feature">
             {/* <AiTool /> */}
-            {/* <ToolTipModal />{" "} */}
+
             <PhoneLanding />
             <form onSubmit={submitHandler}>
                 <input placeholder="Search here" />
