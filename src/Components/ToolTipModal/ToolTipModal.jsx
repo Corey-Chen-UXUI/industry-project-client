@@ -13,7 +13,7 @@ const ToolTipModal = () => {
                 <section className="tooltip__description">How does google maps know the best route? </section>
                 <section className="tooltip__sub-description">Maps uses ai to pull live information from ...</section>
                 <Link to="">
-                    <section className="tooltip__link">Learn more</section>
+                    <section className="tooltip__link">Ask Bard How</section>
                 </Link>
             </section>
         </>
