@@ -9,7 +9,7 @@ const Navigation = () => {
     return (
         <div className="navigation">
             <ModalBard />
-            <ToolTipModal className="navigation__tooltips" />
+            <ToolTipModal />
             <NavigationLanding />
 
             {/* <Modal/> */}
